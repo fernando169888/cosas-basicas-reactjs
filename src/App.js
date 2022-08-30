@@ -20,11 +20,13 @@ function App() {
           <p>
             Editar <code>src/App.js</code> and save to reload.
           </p>
+          <p>Hola hice un cambio en mi documento desde mi laptop uwu</p>
           <a
             className="App-link"
             href="https://reactjs.org"
             target="_blank"
-            rel="noopener noreferrer">
+            rel="noopener noreferrer"
+          >
             Learn React
           </a>
           <section>
@@ -39,7 +41,8 @@ function App() {
               funcion={(num) => num * num}
               componenteReact={
                 <Componente msg="Soy un componente pasado como Prop" />
-              }></Propiedades>
+              }
+            ></Propiedades>
             <hr />
             <Estado />
             <hr />
