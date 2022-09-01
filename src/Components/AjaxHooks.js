@@ -55,13 +55,13 @@ export default function AjaxHooks() {
   return (
     <>
       <h2>Peticiones Asincronas en Hooks</h2>
-      {pokemons.length === 0 ? (
+      {/* {pokemons.length === 0 ? (
         <h3>Cargando...</h3>
       ) : (
         pokemons.map((el) => (
           <Pokemon key={el.id} name={el.name} avatar={el.avatar} />
         ))
-      )}
+      )} */}
     </>
   );
 }
