@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import { useRef } from "react";
 
 export default function Referencias() {
